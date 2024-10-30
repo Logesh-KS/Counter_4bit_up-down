@@ -75,11 +75,17 @@ Functional Simulation:
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
+![image](https://github.com/user-attachments/assets/ee75f426-1ce5-44d8-8f48-31c6ef7704df)
+
+
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+
+![image](https://github.com/user-attachments/assets/742a9ba9-57e9-47d9-9814-63a49d4a11a2)
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +94,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+![image](https://github.com/user-attachments/assets/095477ea-75b3-4221-8bb8-6c50918feb9a)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -123,6 +132,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
+![image](https://github.com/user-attachments/assets/d298f17f-f9c5-4899-9893-d7d489b17797)
+
+
 ## Fig 7: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
@@ -131,6 +143,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+
+![image](https://github.com/user-attachments/assets/2e60f83e-0ea8-487f-8257-a26f85cea46d)
+
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -165,8 +180,14 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/903957ec-300a-4c7f-977f-bc070adc997e)
+
 
 ## Fig 10: Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/d804eeb5-6c42-481d-8793-5e03516a6757)
+
 
 ## Fig 11: Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/27a6ce1d-5468-45ad-b247-eddb57f3d551)
+
 
